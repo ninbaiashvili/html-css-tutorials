@@ -1,5 +1,6 @@
 a {
     height: 100px;
     width: 30px;
+    padding: 10px;
     display: block;
 }
