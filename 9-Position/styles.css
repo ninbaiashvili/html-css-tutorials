@@ -1,24 +1,17 @@
-
-section {
-    border: 1px solid #222;
-    min-width: 300px;
+.main-wrapper {
+    padding: 50px;
+    position: relative;
+}
+hr {
+    position: relative;
+    z-index: 1;
+}
+span {
     position: absolute;
-    top: 20px;
-    right: 20px;
-    padding: 20px 30px;
-}
-h1,p {
-    margin: 0;
-    max-width: 240px;
-}
-h1 {
-    margin-bottom: 10px;
-}
-a {
-    position: absolute;
-    top: 20px;
-    right: 30px;
-    font-size: 20px;
-    text-decoration: none;
-    color: #111;
+    z-index: 2;
+    padding: 20px;
+    background-color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
 }
