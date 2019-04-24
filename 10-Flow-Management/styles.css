@@ -9,17 +9,16 @@ main {
     margin: 0 auto;
 }
 .col-1, .col-2, .col-3 {
-    width: 45%;
+    width: 260px;
+    float: left;
+    margin: 0 10px;
+    margin-bottom: 30px;
 }
 .col-1 {
-    float: left;
-}
-.col-2 {
-    float: right;
+    margin-left: 0;
 }
 .col-3 {
-    margin: 0 auto;
-    margin-bottom: 30px;
+    margin-right: 0;
 }
 .row {
     clear: both;
