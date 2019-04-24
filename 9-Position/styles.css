@@ -1,26 +1,24 @@
+
 section {
-    position: relative;
-    width: 100px;
-    height: 100px;
-    background: #ccc;
-    display: inline-block;
-    margin: 40px;
-    border-radius: 6px;
-}
-section div {
+    border: 1px solid #222;
+    min-width: 300px;
     position: absolute;
-    min-width: 0px;
-    height: 25px;
-    line-height: 23px;
-    padding: 0 10px;
-    text-align: center;
-    border-radius: 15px;
-    background: red;
-    border: 2px solid #fff;
-    color: #fff;
+    top: 20px;
+    right: 20px;
+    padding: 20px 30px;
 }
-.a {
-    top: 0;
-    right: 0;
-    transform: translate(50%,-50%);
+h1,p {
+    margin: 0;
+    max-width: 240px;
+}
+h1 {
+    margin-bottom: 10px;
+}
+a {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #111;
 }
