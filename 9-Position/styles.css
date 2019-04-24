@@ -12,18 +12,7 @@ section div {
     background: #fff;
 }
 .a {
-    top: 20px;
-    left: 20px;
-}
-.b {
-    top: 20px;
-    right: 20px;
-}
-.c {
-    bottom: 20px;
-    right: 20px;
-}
-.d {
-    left: 20px;
-    bottom: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
 }
