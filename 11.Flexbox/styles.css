@@ -25,14 +25,28 @@ footer {
     height: 150px;
 }
 .col-1, .col-2 {
-    flex-grow: 1;
+    flex-grow: ;
 }
 .col-1 {
+   min-width: 180px;
+}
+.col-2 {
+    flex-grow: 1;
     margin-right: 30px;
+}
+.col-3 {
+    flex-grow: 1;
+    margin-left: 30px;
 }
 .col-3 {
     width: 200px;
 }
-.row-2 {
-    justify-content: center;
+.row-2, .row-3, .row-4 {
+    justify-content: space-between;
+}
+.nm {
+    margin-right: 0;
+}
+.full {
+    flex-grow: 1;
 }
