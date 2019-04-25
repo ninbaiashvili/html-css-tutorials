@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+main {
+    width: 600px;
+    margin: 0 auto;
+}
+header {
+    width: 100%;
+    background: grey;
+    height: 150px;
+    margin-bottom: 30px;
+}
+footer {
+    width: 100%;
+    background: grey;
+    height: 150px;
+}
+.row {
+    display: flex;
+    margin-bottom: 30px;
+}
+.row div {
+    background: grey;
+    height: 150px;
+}
+.col-1, .col-2 {
+    flex-grow: 1;
+}
+.col-1 {
+    margin-right: 30px;
+}
+.col-3 {
+    width: 200px;
+}
+.row-2 {
+    justify-content: center;
+}
