@@ -22,21 +22,20 @@ footer {
 }
 .row div {
     background: grey;
-    height: 150px;
-}
-.col-1, .col-2 {
-    flex-grow: ;
+    min-height: 150px;
 }
 .col-1 {
    min-width: 180px;
 }
-.col-2 {
-    flex-grow: 1;
-    margin-right: 30px;
-}
 .col-3 {
     flex-grow: 1;
     margin-left: 30px;
+}
+.row .col-2 {
+    min-width: 180px;
+}
+.col-2.full {
+    margin-right: 30px;
 }
 .col-3 {
     width: 200px;
@@ -49,4 +48,22 @@ footer {
 }
 .full {
     flex-grow: 1;
+}
+.row.row-4 {
+    flex-wrap: wrap;
+    max-width: 390px;
+    background: transparent;
+    margin-bottom: 0;
+}
+.row .col-4 {
+    width: 180px;
+    margin-bottom: 30px;
+}
+.row .col-4:last-child {
+    flex-grow: 1;
+    margin-bottom: 0;
+
+}
+.row .tr {
+    background: transparent;
 }
