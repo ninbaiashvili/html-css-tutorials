@@ -18,9 +18,12 @@
  section div {
      background-color: darkgoldenrod;
  }
- .header {
-    grid-column: 1/4;
- }
-.footer {
-    grid-column: 1/4;
+.col-3 {
+    grid-column: span 3;
+}
+.col-1 {
+    grid-column: span 1;
+}
+.col-2 {
+    grid-column: span 2;
 }
